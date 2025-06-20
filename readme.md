@@ -67,8 +67,8 @@ The Domain Tools MCP Server is a Model Context Protocol (MCP) server that provid
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone https://github.com/deshabhishek007/domain-tools-mcp-server.git
+cd domain-tools-mcp-server
 ```
 
 ### 2. Create a Virtual Environment (Recommended)
@@ -82,10 +82,6 @@ source domain-tools-env/bin/activate
 
 ```bash
 pip install -r requirements.txt
-```
-Or, if you don't have `requirements.txt`:
-```bash
-pip install mcp dnspython python-whois pydantic asyncio
 ```
 
 ### 4. Verify Installation
